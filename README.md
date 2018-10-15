@@ -158,13 +158,3 @@ apt install zlib1g-dev
 # for other, Google: /usr/bin/ld: cannot find -l<other package>
 ```
 
-# Optional, Add to PATH
-Easy use
-```bash
-# RDM
-export RDM_HOME=/opt/redis-desktop-manager
-export PATH=$RDM_HOME:$PATH
-```
-
-
-
