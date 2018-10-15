@@ -34,9 +34,24 @@ mv qt.conf qt.backup
 strip rdm
 ```
 
-# Install GUI package
+# Launch on VcXsrv
+Base on [wsl-tutorial](https://github.com/archongum/wsl-tutorial)
+
+## Install VcXsrv
+[VcXsrv](https://sourceforge.net/projects/vcxsrv/).
+
+## Install xfce desktop
 ```bash
 apt install xfce4
+```
+
+## Specify the display server
+
+Add to `~/.bashrc`
+
+```bash
+export DISPLAY=:0.0
+export LIBGL_ALWAYS_INDIRECT=1
 ```
 
 # Some issues
