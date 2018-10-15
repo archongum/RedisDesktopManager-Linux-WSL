@@ -37,7 +37,7 @@ strip rdm
 ```
 
 # Launch on VcXsrv
-Base on [wsl-tutorial](https://github.com/archongum/wsl-tutorial)
+Base on [wsl-tutorial](https://github.com/QMonkey/wsl-tutorial)
 Or see [CSDN](https://blog.csdn.net/c13232906050/article/details/83025020)
 
 ## Install VcXsrv
