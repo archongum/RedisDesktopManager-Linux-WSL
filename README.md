@@ -4,6 +4,8 @@ Base on WSL(Windows Subsystem for Linux)
 
 **Tested on Ubuntu 18.04 LTS**
 
+![rdm0.9.8](pictures/rdm0.9.8.png "rdm0.9.8")
+
 # Before
 - WSL = Windows Subsystem for Liunx
 - WSL not support `snap`, see [link](https://forum.snapcraft.io/t/windows-subsystem-for-linux/216/10#post_10)
