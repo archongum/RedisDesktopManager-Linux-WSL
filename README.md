@@ -34,7 +34,10 @@ mv qt.conf qt.backup
 strip rdm
 ```
 
----
+# Install GUI package
+```bash
+apt install xfce4
+```
 
 # Some issues
 ## Set default user to `root`
@@ -154,9 +157,6 @@ apt install libssh2-1-dev
 apt install zlib1g-dev
 # for other, Google: /usr/bin/ld: cannot find -l<other package>
 ```
-
-
----
 
 # Optional, Add to PATH
 Easy use
