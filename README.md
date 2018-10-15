@@ -14,6 +14,9 @@ Base on WSL(Windows Subsystem for Linux)
 # need to upgrade
 apt update && apt upgrade
 
+# WSL has not g++
+apt install g++
+
 # change to latest tag
 git clone --recursive https://github.com/uglide/RedisDesktopManager.git -b 0.9.8
 
@@ -40,7 +43,7 @@ Open `PowerShell`: <kbd>win</kbd>+<kbd>x</kbd>, <kbd>a</kbd>
 ubuntu1804.exe config --default-user root
 ```
 
-## c++11
+## g++(c++11)
 ```bash
 apt install g++
 ```
